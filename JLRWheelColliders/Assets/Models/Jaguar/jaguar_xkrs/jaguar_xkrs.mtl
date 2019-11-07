@@ -1,0 +1,433 @@
+newmtl GENERIC05_LODA
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 0.7 0.7 0.7
+Ns 150
+illum 2
+map_Kd texture\jaguarxkrseeringwheel_momo_mod88_loda_diffuse.dds
+bump texture\jaguarxkrseeringwheel_momo_mod88_loda_normal.dds
+
+newmtl CAR_CHASSIS
+Ka 0.3 0.3 0.3
+Kd 0.4 0.4 0.4
+Ks 1 1 1
+Ns 900
+illum 2
+map_Kd texture\metal_detail.dds
+map_Ks texture\CAR_CHASSIS.dds
+bump texture\flat_nm.dds
+
+newmtl XKRS_LIGHTS_REAR
+Ka 0.6 0.6 0.6
+Kd 0.3 0.3 0.3
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\jaguarxkrs_lights_diffuse.dds
+
+newmtl JAGUAR_XKR_BADGES
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\jaguarxkrs_badges_diffuse.dds
+
+newmtl JAGUAR_XKR_LIGHTS
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 8.7 8.7 8.7
+Ns 900
+illum 2
+map_Kd texture\jaguarxkrs_lights_diffuse.dds
+
+newmtl JAGUAR_XKR_INTERIOR
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 0 0 0
+Ns 900
+illum 2
+map_Kd texture\jaguarxkrs_interior_diffuse.dds
+
+newmtl xkrs_black
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\xkrs_black.dds
+
+newmtl XKRS_CHROME
+Ka 0 0 0
+Kd 0.2 0.2 0.2
+Ks 8.5 8.5 8.5
+Ns 900
+illum 2
+map_Kd texture\xkrs_silver.dds
+
+newmtl XKRS_LCOVERS2
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\xkrs_WIND.DDS
+
+newmtl XKRS_LCOVERS
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\xkrs_WIND.DDS
+
+newmtl xkrs_badges_noalpha
+Ka 0.3 0.3 0.3
+Kd 0.4 0.4 0.4
+Ks 0.7 0.7 0.7
+Ns 900
+illum 2
+map_Kd texture\jaguarxkrs_badges_diffuse.dds
+
+newmtl XKRS_GLASS_BLACK
+Ka 0.2 0.2 0.2
+Kd 0.3 0.3 0.3
+Ks 0.1 0.1 0.1
+Ns 80
+illum 2
+map_Kd texture\common_black.dds
+
+newmtl xkrs_lights
+Ka 0.6 0.6 0.6
+Kd 0.4 0.4 0.4
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\jaguarxkrs_lights_diffuse.dds
+
+newmtl XKRS_CARBON
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0.5 0.5 0.5
+Ns 800
+illum 2
+map_Kd texture\MAT_Carbon.dds
+map_Ks texture\MAT_Carbon.dds
+bump texture\flat_nm.dds
+
+newmtl XKRS_INTERIOR_LR
+Ka 0.1 0.1 0.1
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 0
+illum 2
+map_Kd texture\xkrs_black.dds
+
+newmtl MOMO_MOD80_LODA
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\jaguarxkrseeringwheel_momo_mod80_loda_diffuse.dds
+
+newmtl WCWINDOW
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 8.7 8.7 8.7
+Ns 700
+illum 2
+map_Kd texture\xkrs_WIND.DDS
+
+newmtl XKRS_RIM
+Ka 0.2 0.2 0.2
+Kd 0.5 0.5 0.5
+Ks 1 1 1
+Ns 500
+illum 2
+map_Kd texture\jaguarxkrs_misc_diffuse.dds
+bump texture\jaguarxkrs_misc_normal.dds
+
+newmtl xkrs_disc
+Ka 0.4 0.4 0.4
+Kd 0.6 0.6 0.6
+Ks 0.7 0.7 0.7
+Ns 80
+illum 2
+map_Kd texture\brakedisk.dds
+bump texture\brakedisk_n.dds
+
+newmtl XKRS_RIM_noshine
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 0.1 0.1 0.1
+Ns 80
+illum 2
+map_Kd texture\jaguarxkrs_misc_diffuse.dds
+bump texture\jaguarxkrs_misc_normal.dds
+
+newmtl JAGUAR_XKR_DISC
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\common_disk01_diffuse.dds
+
+newmtl JAGUAR_XKR_TREAD
+Ka 0.4 0.4 0.4
+Kd 0.4 0.4 0.4
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\AC_TREAD.DDS
+bump texture\AC_TREAD_B.DDS
+
+newmtl JAGUAR_XKR_TYRE
+Ka 0.4 0.4 0.4
+Kd 0.4 0.4 0.4
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\AC_TIRESIDE.DDS
+bump texture\AC_TIRESIDE_B.DDS
+
+newmtl xksre_disk_blur
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.2 0.2 0.2
+Ns 10
+illum 2
+map_Kd texture\common_disk01_diffuse_blur.dds
+
+newmtl 13_-_Default
+Ka 0.4 0.4 0.4
+Kd 0.6 0.6 0.6
+Ks 0.8 0.8 0.8
+Ns 30
+illum 2
+map_Kd texture\xkrs_rim_blur.dds
+
+newmtl xkrs_caliper_lod0_mult
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.2 0.2 0.2
+Ns 10
+illum 2
+map_Kd texture\xkrs_texture_lod0.DDS
+
+newmtl xkrs_caliper_lod0
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.2 0.2 0.2
+Ns 10
+illum 2
+map_Kd texture\xkrs_texture_lod0.DDS
+
+newmtl xkrs_leather_sw
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 900
+illum 2
+map_Kd texture\mat_grey.dds
+bump texture\flat_nm.dds
+
+newmtl XKRS_BLIGHT
+Ka 0.1 0.1 0.1
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 0
+illum 2
+map_Kd texture\Mirror.DDS
+
+newmtl GENERIC_MOD_MATERIAL_COCKPIT_BADGE_GLOW_SW
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\jaguarxkrs_cockpi_diffuse.dds
+
+newmtl GENERIC_MOD_MATERIAL_SW
+Ka 0.4 0.4 0.4
+Kd 0.6 0.6 0.6
+Ks 0.6 0.6 0.6
+Ns 150
+illum 2
+map_Kd texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+
+newmtl GENERIC_CARBON
+Ka 0.2 0.2 0.2
+Kd 0.5 0.5 0.5
+Ks 0.4 0.4 0.4
+Ns 150
+illum 2
+map_Kd texture\jaguarxkrs_carbon_cockp_shade.DDS
+map_Ks texture\jaguarxkrs_carbon_cockp_diffuse.dds
+bump texture\jaguarxkrs_carbon_cockp_normal.DDS
+
+newmtl XKRS_MOD_MATERIAL_SCOCKPIT
+Ka 0.2 0.2 0.2
+Kd 0.4 0.4 0.4
+Ks 0.4 0.4 0.4
+Ns 10
+illum 2
+map_Kd texture\xkrs_specular.dds
+map_Ks texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+bump texture\jaguar_xk-rs_cocpito_cockpit_normals.dds
+
+newmtl xkrs_cockpit_gauges
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+
+newmtl xkrs_cockpit_leather
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 0.1 0.1 0.1
+Ns 900
+illum 2
+map_Kd texture\xkrs_black.dds
+bump texture\flat_nm.dds
+
+newmtl xkrs_doorhandles_c
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\xkrs_silver.dds
+
+newmtl XKRS_CARPET
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\common_carpet.dds
+
+newmtl GENERIC_LCD
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\common_mfd_diffuse.dds
+
+newmtl GENERIC_MOD_MATERIAL_COCKPIT
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+
+newmtl XKRS_BLACKC
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\xkrs_black.dds
+
+newmtl GENERIC_MOD_MATERIAL_COCKPIT_BADGE_GLOW
+Ka 0.5 0.5 0.5
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+
+newmtl xkrs_cokcpit_wood
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\jaguar_xk-rs_cocpito_cockpit_diffuse.dds
+
+newmtl xkrs_cokcpit_chrome
+Ka 0.4 0.4 0.4
+Kd 0.5 0.5 0.5
+Ks 0.7 0.7 0.7
+Ns 150
+illum 2
+map_Kd texture\xkrs_silver.dds
+
+newmtl xkrs_chrom_needle
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.3 0.3 0.3
+Ns 10
+illum 2
+map_Kd texture\xkrs_silver.dds
+
+newmtl GLOW
+Ka 0.6 0.6 0.6
+Kd 0.4 0.4 0.4
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\GLOW.dds
+
+newmtl HGLOW
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\HGLOW.dds
+
+newmtl HGLOWC
+Ka 0.2 0.2 0.2
+Kd 0.6 0.6 0.6
+Ks 0.3 0.3 0.3
+Ns 10
+illum 2
+map_Kd texture\HGLOWC.dds
+
+newmtl HGLOWB
+Ka 0.6 0.6 0.6
+Kd 0.4 0.4 0.4
+Ks 2 2 2
+Ns 900
+illum 2
+map_Kd texture\HGLOWB.dds
+
+newmtl Mirror
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+Ns 0
+illum 2
+map_Kd texture\Mirror.DDS
+
+newmtl JAGUAR_XKR_BOOT
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\jaguarxkrs_interior_diffuse.dds
+
+newmtl PLATE
+Ka 0.3 0.3 0.3
+Kd 0.4 0.4 0.4
+Ks 0.3 0.3 0.3
+Ns 100
+illum 2
+map_Kd texture\Plate_D.dds
+bump texture\xkrs_black.dds
+
+newmtl LCD
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.9 0.9 0.9
+Ns 10
+illum 2
+map_Kd texture\logo.png
+

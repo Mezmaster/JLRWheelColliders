@@ -1,0 +1,143 @@
+{
+    "name": "Jaguar XKR-S",
+    "brand": "Jaguar",
+    "description": "Billed as Jaguar's \"most responsive, powerful, agile, and driver-focused production car,\" the XKR-S is a serious performance machine. It builds on the \"normal\" XKR by adding more power, a revised and stiffened suspension and special styling touches inside and out.<br>The heart of the XKR-S, which is also available in drop-top XKR-S Convertible form. is its supercharged 5.0-liter V8. This twin-cam, direct injected unit makes 550 horsepower and 502 lb-ft of torque, levels that surpass even those of Jaguar's XJ220 supercar from the early 1990s. Remapping the engine's fueling characteristics and increasing exhaust gas flow through the use of an active exhaust system helped liberate the extra ponies from the engine, which makes 510 horsepower in the XKR.<br><br>Read more: http://www.leftlanenews.com/new-car-buying/jaguar/xkr-s/#ixzz3t37S5Ghu<br>http://www.jaguarusa.com/all-models/xk/xk-models/xkr-s-coupe.html<br>",
+    "tags": [
+        "rwd",
+        "sequential",
+        "race",
+        "singleseater",
+        "turbo",
+        "Germany",
+        "USA"
+    ],
+    "class": "street",
+    "specs": {
+        "bhp": "+500 bhp",
+        "torque": "+230Nm",
+        "weight": "1843kg",
+        "topspeed": "297km/h",
+        "acceleration": "0-60kmh+4.2s",
+        "pwratio": "+1.69kg/cv"
+    },
+    "torqueCurve": [
+        [
+            "0",
+            "0"
+        ],
+        [
+            "500",
+            "0"
+        ],
+        [
+            "1000",
+            "0"
+        ],
+        [
+            "1500",
+            "0"
+        ],
+        [
+            "2000",
+            "0"
+        ],
+        [
+            "2500",
+            "0"
+        ],
+        [
+            "3000",
+            "0"
+        ],
+        [
+            "3500",
+            "0"
+        ],
+        [
+            "4000",
+            "0"
+        ],
+        [
+            "4500",
+            "0"
+        ],
+        [
+            "5000",
+            "0"
+        ],
+        [
+            "5500",
+            "0"
+        ],
+        [
+            "6000",
+            "0"
+        ],
+        [
+            "6500",
+            "0"
+        ]
+    ],
+    "powerCurve": [
+        [
+            "0",
+            "0"
+        ],
+        [
+            "500",
+            "0"
+        ],
+        [
+            "1000",
+            "0"
+        ],
+        [
+            "1500",
+            "0"
+        ],
+        [
+            "2000",
+            "0"
+        ],
+        [
+            "2500",
+            "0"
+        ],
+        [
+            "3000",
+            "0"
+        ],
+        [
+            "3500",
+            "0"
+        ],
+        [
+            "4000",
+            "0"
+        ],
+        [
+            "4500",
+            "0"
+        ],
+        [
+            "5000",
+            "0"
+        ],
+        [
+            "5500",
+            "0"
+        ],
+        [
+            "6000",
+            "0"
+        ],
+        [
+            "6500",
+            "0"
+        ]
+    ],
+    "year": 2015,
+    "country": "Germany",
+    "author": "Hell Prosecutor",
+    "url": null
+}
