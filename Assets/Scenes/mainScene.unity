@@ -179,7 +179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &164888663
 GameObject:
@@ -266,13 +266,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164888663}
-  m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 5, y: 0, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937294243
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,11 +348,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937294243}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0.16, y: -5.3599997, z: -1.0704513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 9142504333707302183}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9142504333706807553
@@ -368,6 +368,7 @@ GameObject:
   - component: {fileID: 9142504333709072327}
   - component: {fileID: 9142504333706807554}
   - component: {fileID: 9142504333706807557}
+  - component: {fileID: 9142504333706807558}
   m_Layer: 0
   m_Name: jaguar_xkrs_bl_brake
   m_TagString: Untagged
@@ -383,7 +384,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807553}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -432,10 +433,10 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807553}
   m_ConnectedBody: {fileID: 9142504333706807560}
-  m_Anchor: {x: 0, y: 0.22640273, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.81591094, y: -1.1083295, z: 0.65954804}
+  m_ConnectedAnchor: {x: -0.81591094, y: -1.3347324, z: -0.34045184}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -519,6 +520,20 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!64 &9142504333706807558
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300022, guid: 3631a85597fdbca4186a2500dfcbcca0, type: 3}
 --- !u!1 &9142504333706807559
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,6 +546,8 @@ GameObject:
   - component: {fileID: 9142504333708072197}
   - component: {fileID: 9142504333709072325}
   - component: {fileID: 9142504333706807560}
+  - component: {fileID: 9142504333706807564}
+  - component: {fileID: 9142504333706807566}
   m_Layer: 0
   m_Name: jaguar_xkrs
   m_TagString: Untagged
@@ -546,7 +563,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807559}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 2500
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -605,6 +622,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &9142504333706807564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0120301, y: 4.767696, z: 1.1917052}
+  m_Center: {x: -0.02000001, y: -0.0115, z: -1.38}
 --- !u!1 &9142504333706807565
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +653,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9142504333706807566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 808d446661ca9e342ac715c884bfb7ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftrear: {fileID: 9142504333706807554}
+  rightrear: {fileID: 9142504333706807568}
 --- !u!1 &9142504333706807567
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +680,7 @@ GameObject:
   - component: {fileID: 9142504333709072333}
   - component: {fileID: 9142504333706807568}
   - component: {fileID: 9142504333706807570}
+  - component: {fileID: 9142504333706807590}
   m_Layer: 0
   m_Name: jaguar_xkrs_br_brake
   m_TagString: Untagged
@@ -651,7 +696,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807567}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -685,10 +730,10 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807567}
   m_ConnectedBody: {fileID: 9142504333706807560}
-  m_Anchor: {x: 0, y: 0.22640547, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.7756937, y: -1.1083295, z: 0.6595471}
+  m_ConnectedAnchor: {x: 0.7756937, y: -1.3347353, z: -0.3404528}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -785,6 +830,7 @@ GameObject:
   - component: {fileID: 9142504333709072337}
   - component: {fileID: 9142504333706807572}
   - component: {fileID: 9142504333706807574}
+  - component: {fileID: 9142504333706807579}
   m_Layer: 0
   m_Name: jaguar_xkrs_fr_brake
   m_TagString: Untagged
@@ -800,7 +846,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807571}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -821,6 +867,7 @@ GameObject:
   - component: {fileID: 9142504333709072331}
   - component: {fileID: 9142504333706807576}
   - component: {fileID: 9142504333706807577}
+  - component: {fileID: 9142504333706807587}
   m_Layer: 0
   m_Name: jaguar_xkrs_fl_brake
   m_TagString: Untagged
@@ -836,10 +883,10 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807571}
   m_ConnectedBody: {fileID: 9142504333706807560}
-  m_Anchor: {x: 0, y: 0.19803034, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.75800955, y: 1.6152978, z: 0.6595468}
+  m_ConnectedAnchor: {x: 0.75800955, y: 1.4172674, z: -0.34045303}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -950,7 +997,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807573}
   serializedVersion: 2
-  m_Mass: 20
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -966,10 +1013,10 @@ ConfigurableJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807573}
   m_ConnectedBody: {fileID: 9142504333706807560}
-  m_Anchor: {x: 0, y: 0.19803244, z: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.79871845, y: 1.6152978, z: 0.6595475}
+  m_ConnectedAnchor: {x: -0.79871845, y: 1.4172653, z: -0.3404523}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -1067,6 +1114,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 3631a85597fdbca4186a2500dfcbcca0, type: 3}
+--- !u!64 &9142504333706807579
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 3631a85597fdbca4186a2500dfcbcca0, type: 3}
 --- !u!1 &9142504333706807581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1179,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &9142504333706807587
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300018, guid: 3631a85597fdbca4186a2500dfcbcca0, type: 3}
+--- !u!64 &9142504333706807590
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142504333706807567}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300024, guid: 3631a85597fdbca4186a2500dfcbcca0, type: 3}
 --- !u!4 &9142504333707302177
 Transform:
   m_ObjectHideFlags: 0
@@ -1131,7 +1220,7 @@ Transform:
   m_Children:
   - {fileID: 9142504333707302189}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9142504333707302179
 Transform:
@@ -1155,11 +1244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9142504333706807559}
   m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.6861023, y: 1.709548, z: -4.64}
+  m_LocalPosition: {x: -0.6861023, y: 0.709548, z: -4.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 937294246}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9142504333707302185
 Transform:
@@ -1218,7 +1308,7 @@ Transform:
   m_Children:
   - {fileID: 9142504333707302187}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9142504333707302193
 Transform:
@@ -1248,7 +1338,7 @@ Transform:
   m_Children:
   - {fileID: 9142504333707302207}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9142504333707302197
 Transform:
@@ -1263,7 +1353,7 @@ Transform:
   m_Children:
   - {fileID: 9142504333707302193}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9142504333707302199
 Transform:
