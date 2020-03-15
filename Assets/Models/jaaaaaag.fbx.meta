@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 3631a85597fdbca4186a2500dfcbcca0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: jaguar_xkrs
+    100004: jaguar_xkrs_bl_brake
+    100006: jaguar_xkrs_bl_tire
+    100008: jaguar_xkrs_bl_wheel
+    100010: jaguar_xkrs_br_brake
+    100012: jaguar_xkrs_br_tire
+    100014: jaguar_xkrs_br_wheel
+    100016: jaguar_xkrs_fl_brake
+    100018: jaguar_xkrs_fl_tire
+    100020: jaguar_xkrs_fl_wheel
+    100022: jaguar_xkrs_fr_brake
+    100024: jaguar_xkrs_fr_tire
+    100026: jaguar_xkrs_fr_wheel
+    400000: //RootNode
+    400002: jaguar_xkrs
+    400004: jaguar_xkrs_bl_brake
+    400006: jaguar_xkrs_bl_tire
+    400008: jaguar_xkrs_bl_wheel
+    400010: jaguar_xkrs_br_brake
+    400012: jaguar_xkrs_br_tire
+    400014: jaguar_xkrs_br_wheel
+    400016: jaguar_xkrs_fl_brake
+    400018: jaguar_xkrs_fl_tire
+    400020: jaguar_xkrs_fl_wheel
+    400022: jaguar_xkrs_fr_brake
+    400024: jaguar_xkrs_fr_tire
+    400026: jaguar_xkrs_fr_wheel
+    2100000: GENERIC05_LODA
+    2100002: CAR_CHASSIS
+    2100004: XKRS_LIGHTS_REAR
+    2100006: JAGUAR_XKR_BADGES
+    2100008: JAGUAR_XKR_LIGHTS
+    2100010: JAGUAR_XKR_INTERIOR
+    2100012: xkrs_black
+    2100014: XKRS_CHROME
+    2100016: XKRS_LCOVERS2
+    2100018: XKRS_LCOVERS
+    2100020: xkrs_badges_noalpha
+    2100022: XKRS_GLASS_BLACK
+    2100024: xkrs_lights
+    2100026: XKRS_CARBON
+    2100028: XKRS_INTERIOR_LR
+    2100030: MOMO_MOD80_LODA
+    2100032: WCWINDOW
+    2100034: xkrs_leather_sw
+    2100036: XKRS_BLIGHT
+    2100038: GENERIC_MOD_MATERIAL_COCKPIT_BADGE_GLOW_SW
+    2100040: GENERIC_MOD_MATERIAL_SW
+    2100042: GENERIC_CARBON
+    2100044: XKRS_MOD_MATERIAL_SCOCKPIT
+    2100046: xkrs_cockpit_gauges
+    2100048: xkrs_cockpit_leather
+    2100050: xkrs_doorhandles_c
+    2100052: XKRS_CARPET
+    2100054: GENERIC_LCD
+    2100056: GENERIC_MOD_MATERIAL_COCKPIT
+    2100058: XKRS_BLACKC
+    2100060: GENERIC_MOD_MATERIAL_COCKPIT_BADGE_GLOW
+    2100062: xkrs_cokcpit_wood
+    2100064: xkrs_cokcpit_chrome
+    2100066: xkrs_chrom_needle
+    2100068: GLOW
+    2100070: HGLOW
+    2100072: HGLOWC
+    2100074: HGLOWB
+    2100076: xkrs_caliper_lod0_mult
+    2100078: Mirror
+    2100080: JAGUAR_XKR_BOOT
+    2100082: PLATE
+    2100084: LCD
+    2100086: JAGUAR_XKR_TYRE
+    2100088: JAGUAR_XKR_TREAD
+    2100090: XKRS_RIM
+    2100092: xkrs_disc
+    2100094: XKRS_RIM_noshine
+    2100096: JAGUAR_XKR_DISC
+    2100098: 13_-_Default
+    2100100: xkrs_caliper_lod0
+    2100102: xksre_disk_blur
+    2300000: jaguar_xkrs
+    2300002: jaguar_xkrs_bl_brake
+    2300004: jaguar_xkrs_bl_tire
+    2300006: jaguar_xkrs_bl_wheel
+    2300008: jaguar_xkrs_br_brake
+    2300010: jaguar_xkrs_br_tire
+    2300012: jaguar_xkrs_br_wheel
+    2300014: jaguar_xkrs_fl_brake
+    2300016: jaguar_xkrs_fl_tire
+    2300018: jaguar_xkrs_fl_wheel
+    2300020: jaguar_xkrs_fr_brake
+    2300022: jaguar_xkrs_fr_tire
+    2300024: jaguar_xkrs_fr_wheel
+    3300000: jaguar_xkrs
+    3300002: jaguar_xkrs_bl_brake
+    3300004: jaguar_xkrs_bl_tire
+    3300006: jaguar_xkrs_bl_wheel
+    3300008: jaguar_xkrs_br_brake
+    3300010: jaguar_xkrs_br_tire
+    3300012: jaguar_xkrs_br_wheel
+    3300014: jaguar_xkrs_fl_brake
+    3300016: jaguar_xkrs_fl_tire
+    3300018: jaguar_xkrs_fl_wheel
+    3300020: jaguar_xkrs_fr_brake
+    3300022: jaguar_xkrs_fr_tire
+    3300024: jaguar_xkrs_fr_wheel
+    4300000: jaguar_xkrs
+    4300002: jaguar_xkrs_fl_tire
+    4300004: jaguar_xkrs_bl_tire
+    4300006: jaguar_xkrs_fr_tire
+    4300008: jaguar_xkrs_br_tire
+    4300010: jaguar_xkrs_fr_wheel
+    4300012: jaguar_xkrs_br_wheel
+    4300014: jaguar_xkrs_fl_wheel
+    4300016: jaguar_xkrs_bl_wheel
+    4300018: jaguar_xkrs_fl_brake
+    4300020: jaguar_xkrs_fr_brake
+    4300022: jaguar_xkrs_bl_brake
+    4300024: jaguar_xkrs_br_brake
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
