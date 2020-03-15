@@ -6,12 +6,17 @@ public class Movement : MonoBehaviour
 {
     [SerializeField]
     Rigidbody leftrear;
+
     [SerializeField]
     Rigidbody rightrear;
+
+    [SerializeField]
+    Rigidbody mainbody;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        mainbody.centerOfMass = Vector3.back;
     }
 
     // Update is called once per frame
@@ -19,13 +24,13 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            leftrear.AddTorque(Vector3.right * 5000);
-            rightrear.AddTorque(Vector3.right * 5000);
+            leftrear.AddTorque(Vector3.right * 25000);
+            rightrear.AddTorque(Vector3.right * 25000);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            leftrear.AddTorque(Vector3.right * -5000);
-            rightrear.AddTorque(Vector3.right * -5000);
+            leftrear.AddTorque(Vector3.right * -25000);
+            rightrear.AddTorque(Vector3.right * -25000);
         }
     }
 }
