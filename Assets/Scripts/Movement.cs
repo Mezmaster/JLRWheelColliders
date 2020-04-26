@@ -22,11 +22,12 @@ public class Movement : MonoBehaviour
     float steeringAngle;
     float steeringMagnitude;
     float dampeningForce;
+    float acceleration;
 
     [Range(0, 50000)]
     public int steeringForce;
 
-    [Range(0, 50000)]
+    [Range(0, 100000)]
     public int drivingForce;
 
     // Start is called before the first frame update
@@ -40,28 +41,42 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            leftrear.AddTorque(Vector3.right * drivingForce);
-            rightrear.AddTorque(Vector3.right * drivingForce);
+            acceleration += 0.1f;
+            leftrear.AddTorque(Vector3.right * (drivingForce * acceleration));
+            rightrear.AddTorque(Vector3.right * (drivingForce * acceleration));
         }
         if (Input.GetKey(KeyCode.S))
         {
-            leftrear.AddTorque(Vector3.right * -drivingForce);
-            rightrear.AddTorque(Vector3.right * -drivingForce);
+            acceleration -= 0.1f;
+            leftrear.AddTorque(Vector3.right * (drivingForce * acceleration));
+            rightrear.AddTorque(Vector3.right * (drivingForce * acceleration));
         }
         if (Input.GetKey(KeyCode.A))
         {
-            steeringAngle -= 3.0f;
+            steeringAngle += 5.0f;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            steeringAngle += 3.0f;
+            steeringAngle -= 5.0f;
         }
+        if (Input.GetKey(KeyCode.Q))
+        {
+            drivingForce += 200000;
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            drivingForce -= 200000;
+        }
+        acceleration = Mathf.Clamp(acceleration, -1, 1);
+        Debug.Log(acceleration);
         steeringAngle = Mathf.Clamp(steeringAngle, -45, 45);
         steeringMagnitude = Mathf.Sin(steeringAngle) * steeringForce;
-        dampeningForce = (steeringForce - (Mathf.Cos(steeringAngle) * steeringForce));
-        leftfront.AddForce(Vector3.right * steeringMagnitude);
-        rightfront.AddForce(Vector3.right * steeringMagnitude);
-        leftrear.AddForce(Vector3.forward * -dampeningForce);
-        rightrear.AddForce(Vector3.forward * -dampeningForce);
+        dampeningForce = (drivingForce - (Mathf.Cos(steeringAngle) * drivingForce));
+        dampeningForce = Mathf.Clamp(dampeningForce, 0, drivingForce * 0.75f);
+        leftfront.AddForce(Vector3.left * steeringMagnitude);
+        rightfront.AddForce(Vector3.left * steeringMagnitude);
+        leftrear.AddTorque((Vector3.forward * -dampeningForce) / 2);
+        rightrear.AddTorque((Vector3.forward * -dampeningForce) / 2);
+
     }
 }
